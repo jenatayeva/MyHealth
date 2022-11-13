@@ -9,6 +9,7 @@
   height: 100%;
   display: flex;
   padding-bottom: 2rem;
+
   .container-header{
     display: flex;
     justify-content: space-between;
@@ -18,18 +19,19 @@
       width: 55%;
       .texts{
         h1{
-          font-size: 96px;
-          font-weight: 900;
-          line-height: 105px;
+          font-size: 68px;
+          font-weight: bold;
           color: $text-primary;
           margin-bottom: 0;
+          line-height: 75px;
+
           span{
             color: $primary;
           }
         }
         p{
-          font-size: 25px;
-          color: $text-primary;
+          font-size: 1.2rem;
+          color: $text-secondary;
         }
       }
     }

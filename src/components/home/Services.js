@@ -13,7 +13,7 @@ const Services = () => {
         <div className='sections'>
           <div className='card'>
             <div className='inner-card'>
-              <img src='' />
+              <img src='' alt='' />
               <h3 className='h3-black'>Search Doctor</h3>
               <p className='p-gray'>Registration for a check at the clinic needed for treatment</p>
             </div>

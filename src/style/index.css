@@ -1,7 +1,21 @@
 @font-face {
-  font-family: Poppins;
+  font-family: "Poppins";
   src: url('../fonts/Poppins/Poppins-Regular.ttf');
+  font-weight: normal;
 }
+
+@font-face {
+  font-family: "Poppins";
+  src: url('../fonts/Poppins/Poppins-Medium.ttf');
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url('../fonts/Poppins/Poppins-Bold.ttf');
+  font-weight: bold;
+}
+
 *{
   font-family: Poppins;
 }

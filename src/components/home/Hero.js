@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import "../../style/App.scss";
 import HeaderImg from "../../imgs/Header-img.svg";
 
-const Home = () => {
+const Hero = () => {
 	return (
 		<Fragment>
 			<section id='HomePage'>
@@ -25,7 +25,7 @@ const Home = () => {
 						</div>
 					</div>
 					<div className='img-content'>
-						<img src={HeaderImg} />
+						<img src={HeaderImg} alt='hero-svg' />
 					</div>
 				</div>
 			</section>
@@ -33,4 +33,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default Hero;
