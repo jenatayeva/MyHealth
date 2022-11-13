@@ -18,8 +18,7 @@ const App = () =>  {
         {/* <Route exact path='/' element={<Hero/>} /> */}
         <Route exact path='/about' element={<About />} />
       </Routes>
-        <Home/>
-
+        <Hero/>
     </BrowserRouter>
   )
 }

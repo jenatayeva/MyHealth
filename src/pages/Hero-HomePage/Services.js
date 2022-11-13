@@ -2,7 +2,7 @@ import React from 'react'
 import '../../style/App.scss'
 
 
-const Sections = () => {
+const Services = () => {
   return (
     <section id='SectionPage'>
       <div className='container container-section'>
@@ -24,4 +24,4 @@ const Sections = () => {
   )
 }
 
-export default Sections
+export default Services
