@@ -2,11 +2,25 @@
   display: grid;
 
    .card-img-circle{
-      object-fit: cover;
+      object-fit: contain;
       overflow: hidden;
       border-radius: 50%;
       width: 250px;
       height: 250px;
       display: flex;
+      justify-content: center;
+  }
+  .card-title{
+    text-align: center;
+    .p-black{
+      color: $text-primary;
+      font-weight: bold;
+      font-size: 22px;
+      margin-bottom: 0;
+    }
+    .p-gray{
+      color: $text-secondary;
+      margin-top: 0;
+    }
   }
 }
