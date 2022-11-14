@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const HospitalListItem = ({ item }) => {
   const { title, src } = item;
   return (

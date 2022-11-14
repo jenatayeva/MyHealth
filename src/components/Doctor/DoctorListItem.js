@@ -5,7 +5,7 @@ const DoctorListItem = ({ item }) => {
   const { title, src } = item;
   return (
     <div className='card-circle'>
-      <div className='card-img-circle'>
+      <div className='card-img'>
         <img src={src} alt={title} />
       </div>
       <div className='card-title'>

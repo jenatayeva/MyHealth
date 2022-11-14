@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import "../../style/App.scss";
 import HeaderImg from "../../imgs/Header-img.svg";
 
 const Hero = () => {

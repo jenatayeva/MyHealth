@@ -1,7 +1,6 @@
 import React,{Fragment} from 'react';
 import CardItemCircle from '../Doctor/DoctorList';
 
-
 const Doctors = () => {
   return (
     <Fragment>
@@ -12,7 +11,10 @@ const Doctors = () => {
             <CardItemCircle/>
           </div>
           <div className='btn btn-center'>
-            <button>See all doctors <i className="fa-regular fa-arrow-right"></i></button>
+            <button>
+              See all doctors
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
           </div>
         </div>
       </section>
