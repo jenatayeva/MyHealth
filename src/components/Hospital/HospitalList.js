@@ -8,19 +8,20 @@ import Picture4 from '../../imgs/tramva.png'
 const hospitalsArray = [
   {
     title: 'Lorem 1',
-    src: {Picture1}
+    // just assign a variable like this:
+    src: Picture1
   },
   {
     title: 'Lorem 2',
-    src: {Picture2}
+    src: Picture2
   },
   {
     title: 'Lorem 3',
-    src: {Picture3}
+    src: Picture3
   },
   {
     title: 'Lorem 4',
-    src: {Picture4}
+    src: Picture4
   }
 ]
 
