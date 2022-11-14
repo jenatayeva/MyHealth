@@ -8,18 +8,22 @@ import Picture4 from '../../imgs/doctor3.png'
 const doctorsArray = [
   {
     title: 'Jack Jones',
+    branch: 'Brain Surgeon',
     src: Picture1
   },
   {
     title: 'Will Smith',
+    branch: 'Heart Surgery',
     src: Picture2
   },
   {
     title: 'Jenn I',
+    branch: 'Brain Surgery',
     src: Picture3
   },
   {
     title: 'Jill Jane',
+    branch: 'Heart Surgery',
     src: Picture4
   }
 ]
@@ -27,8 +31,8 @@ const doctorsArray = [
 const DoctorList = () => {
   return (
     <div className='doctorList'>
-      {doctorsArray.map((item, index) => (
-        <DoctorListItem key={index} item={item} />
+      {doctorsArray.map((item, index, branch) => (
+        <DoctorListItem key={index} item={item} branch={branch} />
       ))}
     </div>
   )
