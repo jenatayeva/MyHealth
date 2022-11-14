@@ -1,0 +1,9 @@
+.card-item{
+  display: grid;
+
+   .card-img{
+      object-fit: cover;
+      overflow: hidden;
+      border-radius: 5px;
+  }
+}

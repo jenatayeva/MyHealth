@@ -7,27 +7,26 @@ import Picture4 from '../../imgs/tramva.png'
 
 const hospitalsArray = [
   {
-    title: 'Lorem 1',
-    src: {Picture1}
+    title: 'Ene-Mahri',
+    src: Picture1
   },
   {
-    title: 'Lorem 2',
-    src: {Picture2}
+    title: 'Gayragoyulmasyz',
+    src: Picture2
   },
   {
-    title: 'Lorem 3',
-    src: {Picture3}
+    title: 'Kardiyalogiya mekezi',
+    src: Picture3
   },
   {
-    title: 'Lorem 4',
-    src: {Picture4}
+    title: 'Shikesleri bejerish merkezi',
+    src: Picture4
   }
 ]
 
 const HospitalList = () => {
   return (
-    <div>
-      <h1>Hospitals</h1>
+    <div className='hospitalList'>
       {hospitalsArray.map((item, index) => (
         <HospitalListItem key={index} item={item} />
       ))}
