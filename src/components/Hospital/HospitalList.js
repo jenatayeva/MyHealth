@@ -1,22 +1,26 @@
 import React from 'react'
 import HospitalListItem from './HospitalListItem'
+import Picture1 from '../../imgs/ene-mahri.png'
+import Picture2 from '../../imgs/Gayragoyulmasyz.png'
+import Picture3 from '../../imgs/kardialogiya.png'
+import Picture4 from '../../imgs/tramva.png'
 
 const hospitalsArray = [
   {
     title: 'Lorem 1',
-    src: '../../imgs/ene-mahri.svg'
+    src: {Picture1}
   },
   {
     title: 'Lorem 2',
-    src: '../../imgs/ene-mahri.svg'
+    src: {Picture2}
   },
   {
     title: 'Lorem 3',
-    src: '../../imgs/ene-mahri.svg'
+    src: {Picture3}
   },
   {
     title: 'Lorem 4',
-    src: '../../imgs/Garyragoyulmasyz.svg'
+    src: {Picture4}
   }
 ]
 
