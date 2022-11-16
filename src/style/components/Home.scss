@@ -1,14 +1,5 @@
-.nav-bg{
-  background-color: $background;
-  width: 100%;
-
-}
-#HomePage{
-  background-color: $background;
-  width: 100%;
-  height: 100%;
+.home-page {
   display: flex;
-  padding-bottom: 2rem;
 
   .container-header{
     display: flex;

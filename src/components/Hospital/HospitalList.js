@@ -21,12 +21,28 @@ const hospitalsArray = [
   {
     title: 'Shikesleri bejerish merkezi',
     src: Picture4
+  },
+  {
+    title: 'Ene-Mahri',
+    src: Picture1
+  },
+  {
+    title: 'Gayragoyulmasyz',
+    src: Picture2
+  },
+  {
+    title: 'Kardiyalogiya mekezi',
+    src: Picture3
+  },
+  {
+    title: 'Shikesleri bejerish merkezi',
+    src: Picture4
   }
 ]
 
 const HospitalList = () => {
   return (
-    <div className='hospitalList'>
+    <div className='cards container'>
       {hospitalsArray.map((item, index) => (
         <HospitalListItem key={index} item={item} />
       ))}

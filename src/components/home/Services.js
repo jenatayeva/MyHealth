@@ -3,11 +3,11 @@ import chatIcon from '../../imgs/chat.svg'
 import calendarIcon from '../../imgs/calendar.svg'
 import doctorIcon from '../../imgs/doctor.svg'
 import searchIcon from '../../imgs/search.svg'
-
+import Section from "../layout/Section";
 
 const Services = () => {
   return (
-    <section id='SectionPage'>
+    <Section className='services-wrapper'>
       <div className='container container-section'>
         <div className='text'>
           <h3 className='h3-blue'>MyHealth free solution</h3>
@@ -36,7 +36,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   )
 }
 

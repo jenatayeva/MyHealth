@@ -30,7 +30,7 @@ const doctorsArray = [
 
 const DoctorList = () => {
   return (
-    <div className='doctorList'>
+    <div className='cards container'>
       {doctorsArray.map((item, index, branch) => (
         <DoctorListItem key={index} item={item} branch={branch} />
       ))}
