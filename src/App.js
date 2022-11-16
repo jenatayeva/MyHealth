@@ -14,6 +14,7 @@ import Hospitals from './pages/Hospitals';
 import './style/App.scss';
 
 const App = () =>  {
+
   return (
     <BrowserRouter>
       <Navbar/>
@@ -22,7 +23,7 @@ const App = () =>  {
         <Route exact path='/about' element={<About />} />
         <Route exact path='/hospitals' element={<Hospitals/>}/>
         <Route exact path='/doctors' element={<Doctors/>}/>
-        <Route exact path='/hospitalsDetail' element={<HospitalDetails/>}/>
+        <Route exact path='/hospitals/:id' element={<HospitalDetails/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

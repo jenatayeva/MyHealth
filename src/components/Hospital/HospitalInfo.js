@@ -1,10 +1,13 @@
 import React from 'react'
+import { useParams } from 'react-router'
 import hospitalPic from '../../imgs/kardialogiya.png'
 const HospitalInfo = () => {
+  const { id } = useParams()
+
   return (
     <div className='container hospital-info'>
         <div className='text-info'>
-          <h1>Kardiyalogiya Ylmy-Kliniki Merkezi Hassahanasy</h1>
+          <h1>{id}</h1>
           <p>Berkarar döwletimiziň Bagtyýarlyk döwri her bir pudaga, her bir adama özüňin özgerdiji güyji bilen täsir etdi. Türkmenistan dünýäde uly abraýy bolan, ykdysady taýdan kuwwatly döwlete öwrüldi. Bularyň hemmesi Çuňňur hormatlanýan Prezidentimiz Gurbanguly Berdimuhamedowyň pähimli ýolbaşçylygynyň, halk hakdaky aladalarynyn, Watanymyzy ösdürmeklik üçin edýän bimöçber yhlasynyň, ýadawsyz gözlegleriniň miwesidir.
 Türkmenistanyň Saglygy goraýyş we derman senagaty ministrliginiň ýolbaşçylygynda 2011-2030 - njy ýyllar üçin ýurtda ýürek- damar keselleriniň garşysyna goreş strategiýasynyň kabul edilip, durmuşa ornaşdyrylmagy hem ilatyň saglygyny dikeltmäge oňaýly täsirini yetirdi.
 Kardiologiýa ylmy - kliniki merkezli hassahananyň işgärleri Türkmenistanyň hormatly Prezidenti Gurbanguly Berdimuhamedowyn “Saglyk” we “Türkmenistany durmuş - ykdysady taýdan ösdürmegiň 2011-2030-njy yyllar üçin Milli maksatnamasynda” ilatyň saglygyny goramagyň hilini we netijeliligini ýokarlandyrmak boýunça goýlan meseleleri çözmekligi üstünlikli amala aşyrýarlar.
