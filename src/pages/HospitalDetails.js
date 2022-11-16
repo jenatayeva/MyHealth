@@ -10,7 +10,9 @@ const HospitalDetails = () => {
     <Section>
       <HospitalInfo/>
       <ReletedDoctors/>
+      <div className='container center'>
       <Button className='btn-blue'>Load More</Button>
+      </div>
     </Section>
   )
 }

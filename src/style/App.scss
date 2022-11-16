@@ -11,7 +11,7 @@
 @import '../style/components/Footer.scss';
 @import '../style/components/ListHeader.scss';
 @import '../style/components/HospitalInfo.scss';
-@import '../style/components/Button.scss';
+@import '../style//components/DoctorInfo.scss';
 
 
 .container{
@@ -19,6 +19,13 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+
+  &.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+  }
 }
 
 .layout-section {
@@ -49,7 +56,10 @@ button{
   i{
     font-size: 1.1rem;
     font-weight: normal;
-    margin-right: 0.75rem;
+    margin-left: 0.75rem;
   }
- 
+  &.btn-blue{
+    background-color: $primary;
+    color: #fff;
+  } 
 }

@@ -11,6 +11,7 @@ import Doctors from './pages/Doctors';
 import Home from './pages/Home';
 import HospitalDetails from './pages/HospitalDetails';
 import Hospitals from './pages/Hospitals';
+import DoctorDetail from './pages/DoctorDetail';
 import './style/App.scss';
 
 const App = () =>  {
@@ -24,6 +25,7 @@ const App = () =>  {
         <Route exact path='/hospitals' element={<Hospitals/>}/>
         <Route exact path='/doctors' element={<Doctors/>}/>
         <Route exact path='/hospitals/:id' element={<HospitalDetails/>}/>
+        <Route exact path='/doctor/:name' element={<DoctorDetail/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
