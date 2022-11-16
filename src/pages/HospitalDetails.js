@@ -7,7 +7,7 @@ import Button from '../components/layout/Button'
 
 const HospitalDetails = () => {
   return (
-    <Section>
+    <Section className='p-5'>
       <HospitalInfo/>
       <ReletedDoctors/>
       <div className='container center'>

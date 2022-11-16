@@ -5,9 +5,11 @@ import ListHeader from '../components/layout/ListHeader'
 
 const Doctors = () => {
   return (
-    <Section>
+    <Section className='p-5'>
       <ListHeader title='Doctors'/>
-      <DoctorList/>
+      <div className='p-2'>
+        <DoctorList/>
+      </div>
     </Section>
   )
 }

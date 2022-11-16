@@ -1,5 +1,5 @@
-import React,{Fragment} from 'react';
-import CardItemCircle from '../Doctor/DoctorList';
+import React from 'react';
+import DoctorList from '../Doctor/DoctorList';
 import Section from '../layout/Section';
 
 const Doctors = () => {
@@ -7,9 +7,7 @@ const Doctors = () => {
     <Section className='doctors-page'>
       <div className='container container-doctors'>
         <div className='title'>Meet out <span>doctors</span></div>
-        <div className='cards'>
-          <CardItemCircle/>
-        </div>
+        <DoctorList />
         <div className='btn btn-center'>
           <button>
             See all doctors
